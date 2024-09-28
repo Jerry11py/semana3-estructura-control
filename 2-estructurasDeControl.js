@@ -57,22 +57,24 @@ function imprimirPares(numero) {
 // Ejercicio 6: Uso de break
 // Instrucción: Escribe una función que recorra los números del 1 al 10, pero detén el bucle cuando el número sea igual a 6.
 function detenerEnSeis() {
-    for (let i = 0; i < 10; i++) {
+    for (let i = 1; i <= 10; i++) {
+        console.log(i);
         if (i === 6) {
             break;
         }
-        console.log(i);
+        
     }
 }
 
 // Ejercicio 7: Uso de continue
 // Instrucción: Crea una función que recorra los números del 1 al 10, pero que se salte el número 5 usando `continue`.
 function saltarCinco() {
-    for (let i = 0; i < 10; i++) {
+    for (let i = 1; i <= 10; i++) {
+        console.log(i);
         if (i === 5) {
             continue;
         }
-        console.log(i);
+        
     }
 }
 
